@@ -14,6 +14,7 @@ import Features from "./components/Features";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
+import DemoPopup from "./components/DemoPopup";
 
 export default function App() {
   const [activeView, setActiveView] = useState<"home" | "services">("home");
@@ -35,6 +36,9 @@ export default function App() {
     <div className="bg-zinc-950 min-h-screen text-white font-sans antialiased selection:bg-yellow-500 selection:text-black">
       {/* Premium Luxury Preloader */}
       <Preloader />
+
+      {/* Premium 3D Demo Interceptor Popup */}
+      <DemoPopup />
 
       {/* Dynamic Header */}
       <Navbar

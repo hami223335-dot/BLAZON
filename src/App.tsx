@@ -13,6 +13,7 @@ import BookingForm from "./components/BookingForm";
 import Features from "./components/Features";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
 
 export default function App() {
   const [activeView, setActiveView] = useState<"home" | "services">("home");
@@ -32,6 +33,9 @@ export default function App() {
 
   return (
     <div className="bg-zinc-950 min-h-screen text-white font-sans antialiased selection:bg-yellow-500 selection:text-black">
+      {/* Premium Luxury Preloader */}
+      <Preloader />
+
       {/* Dynamic Header */}
       <Navbar
         activeView={activeView}

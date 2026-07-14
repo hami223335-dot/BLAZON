@@ -1,0 +1,6 @@
+{
+  "name": "Blazon Salon Islamabad",
+  "description": "An ultra-premium luxury website for Blazon Salon Islamabad, featuring exquisite black & gold themes, elite hair, skin, and grooming services, packages, and a professional booking system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
